@@ -150,18 +150,12 @@ input {
   margin: 14px 0 16px;
   border-radius: 16px;
   overflow: hidden;
-  background: transparent;   /* no background */
-  border: none;              /* no border */
-  box-shadow: none;          /* no glow */
 }
-
 
 .gif-section iframe {
-  width: 100% !important;
-  height: 100% !important;
-  border: none;
-  filter: contrast(1.08) saturate(1.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
 }
+
 
 /* Snow */
 .snow-layer {
@@ -199,4 +193,5 @@ input {
 @keyframes snowfall {
   to { transform: translateY(50%); }
 }
+
 
