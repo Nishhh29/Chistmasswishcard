@@ -3,41 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Merry Christmas Wishes</title>
 
-  <title>🎄 Merry Christmas Wishes</title>
+  <meta name="description" content="Create and share a Merry Christmas greeting with your name!" />
 
-  <meta name="description" content="I made a special Christmas greeting for you 🎁" />
-
-  <!-- WhatsApp / Social Preview -->
   <meta property="og:title" content="🎄 Merry Christmas Wishes 🎅" />
-  <meta property="og:description" content="I made a special Christmas greeting for you 🎁 Tap to see it!" />
-  <meta property="og:image" content="https://nishhh29.github.io/christmas-wish-card/preview.jpg" />
-  <meta property="og:url" content="https://tinyurl.com/5y4pamkh" />
-  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Create your own Christmas greeting and share with friends." />
 
   <link rel="stylesheet" href="style.css" />
-
-  <!-- Lottie & GSAP -->
-  <script src="https://unpkg.com/lottie-web@5.12.2/build/player/lottie.min.js"></script>
-  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
 </head>
 <body>
 
-  <!-- ❄ Snow layers -->
+  <!-- ❄ Snow Layers -->
   <div class="snow-layer snow-back"></div>
   <div class="snow-layer snow-mid"></div>
   <div class="snow-layer snow-front"></div>
 
-  <!-- 🔝 TOP AD -->
-  <div class="ad ad-top">
-    <!-- Paste Adsterra Top Banner Code Here -->
-  </div>
+  <!-- 🔝 Adsterra Top -->
+<div class="ad ad-top">
+  <!-- Adsterra Mobile Top Banner -->
+  <script>
+    atOptions = {
+      'key' : 'd98db4c0d712504dcfd63dd1667a0bf4',
+      'format' : 'iframe',
+      'height' : 50,
+      'width' : 320,
+      'params' : {}
+    };
+  </script>
+  <script src="https://www.highperformanceformat.com/d98db4c0d712504dcfd63dd1667a0bf4/invoke.js"></script>
+</div>
+
 
   <main>
     <div class="card">
-
-      <!-- 🎄 LOTTIE HERO -->
-      <div id="lottie-hero"></div>
 
       <h1 class="animated-message">🎄 Merry Christmas 🎅</h1>
 
@@ -51,34 +50,46 @@
       </div>
 
       <p class="cta-text">
-        Create your own Christmas greeting 🎁
+        Send your own Christmas greeting! Enter your name:
       </p>
 
-      <input
-        id="sender-input"
-        type="text"
-        placeholder="Enter your name"
-      />
+      <div class="share-section">
+        <input id="sender-input" type="text" placeholder="Your name..." />
+        <button id="generate-link" class="btn red">
+          ✨ Create My Greeting ✨
+        </button>
 
-      <button class="btn red" id="generate-link">
-        ✨ Create Greeting
-      </button>
+        <button id="whatsapp-btn" class="btn green">
+          📱 Share on WhatsApp
+        </button>
+      </div>
 
-      <button class="btn green" id="whatsapp-btn">
-        📱 Share on WhatsApp
-      </button>
-
-      <p class="spread-text">❄ Spread Christmas Joy ❄</p>
+      <p class="spread-text">🌲 Spread the Christmas joy 🎄</p>
 
     </div>
   </main>
 
-  <!-- 🔻 BOTTOM AD -->
-  <div class="ad ad-bottom">
-    <!-- Paste Adsterra Bottom Banner Code Here -->
-  </div>
+  <!-- 🔻 Adsterra Bottom -->
+<div class="ad ad-top">
+  <!-- Adsterra Mobile Top Banner -->
+  <script>
+    atOptions = {
+      'key' : 'd98db4c0d712504dcfd63dd1667a0bf4',
+      'format' : 'iframe',
+      'height' : 50,
+      'width' : 320,
+      'params' : {}
+    };
+  </script>
+  <script src="https://www.highperformanceformat.com/d98db4c0d712504dcfd63dd1667a0bf4/invoke.js"></script>
+</div>
 
-  <!-- Tenor loader -->
+
+  <footer>
+    <a href="privacy-policy.html">Privacy Policy</a>
+  </footer>
+
+  <!-- Tenor embed loader (ONLY ONCE) -->
   <script async src="https://tenor.com/embed.js"></script>
 
   <script src="script.js"></script>
